@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <div class="container">
-      <section class="contact">
+      <section class="contact" id="contact">
         <div class="contact_info">
           <p class="info_motto">
             讓前端開啟無限可能
@@ -171,6 +171,13 @@ export default {
         },
       ],
     };
+  },
+  mounted() {
+    const contactSection = document.getElementById('contact');
+    document.addEventListener('scroll', () => {
+      const scrollPosition = window.pageYOffset;
+      contactSection.style.backgroundPositionY = `${scrollPosition / 10}px`;
+    });
   },
 };
 </script>
