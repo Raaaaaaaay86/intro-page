@@ -41,7 +41,7 @@
           <img :src="require('@/assets/imgs/avatar.jpg')">
         </div>
       </section>
-      <section class="about">
+      <section id="about" class="about">
         <h2 class="title">
           關於我
         </h2>
@@ -55,7 +55,7 @@
           </p>
         </div>
       </section>
-      <section class="skills">
+      <section id="skills" class="skills">
         <h2 class="title">
           技術能力
         </h2>
@@ -76,7 +76,7 @@
           </ul>
         </div>
       </section>
-      <section class="portfolio">
+      <section id="portfolio" class="portfolio">
         <div class="title">
           作品集
         </div>
