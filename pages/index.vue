@@ -17,9 +17,9 @@
             mirror46258@gmail.com
           </p>
           <ul class="info_socialMedia">
-            <li>
+            <!-- <li>
               <i class="fab fab fa-linkedin fa-2x" />
-            </li>
+            </li> -->
             <li>
               <i class="fab fa-medium fa-2x" />
             </li>
