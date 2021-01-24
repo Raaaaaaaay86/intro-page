@@ -148,7 +148,7 @@ export default {
         {
           imageName: 'aqi',
           title: '台灣空汙儀表板',
-          skills: 'PUG, Vue3(Composition API)',
+          skills: 'PUG, RWD, Vue3(Composition API)',
           demoLink: 'http://brainy-power.surge.sh/',
         },
         {
