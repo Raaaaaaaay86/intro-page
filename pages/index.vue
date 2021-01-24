@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <div class="container">
-      <section class="contact" id="contact">
+      <section id="contact" class="contact">
         <div class="contact_info">
           <p class="info_motto">
             讓前端開啟無限可能
@@ -21,18 +21,24 @@
               <i class="fab fab fa-linkedin fa-2x" />
             </li> -->
             <li>
-              <i class="fab fa-medium fa-2x" />
+              <a target="_blank" href="https://raaaaaaaay86.medium.com/">
+                <i class="fab fa-medium fa-2x" />
+              </a>
             </li>
             <li>
-              <i class="fab fa-github fa-2x" />
+              <a target="_blank" href="https://github.com/Raaaaaaaay86">
+                <i class="fab fa-github fa-2x" />
+              </a>
             </li>
             <li>
-              <i class="fab fa-instagram-square fa-2x" />
+              <a target="_blank" href="https://www.instagram.com/raylin4real/">
+                <i class="fab fa-instagram-square fa-2x" />
+              </a>
             </li>
           </ul>
         </div>
         <div class="contact_avatar">
-          <img :src="require('@/assets/imgs/avatar.jpg')" height="250">
+          <img :src="require('@/assets/imgs/avatar.jpg')">
         </div>
       </section>
       <section class="about">
@@ -44,7 +50,7 @@
             於 2020 6月畢業於龍華科技大學應用外語系，大四在台北萬豪酒店服務中心實習，服務過
             許多英語系國家住客，皆能提供正確且即時的服務，期間也在住客入住問卷調查中被提及
             。實習同時，在下班時間自學網頁前端技術，高職就讀電機科時就有接觸過程式撰寫基礎
-            ，所以在學習前端的過程中比較能掌握學習節奏。大學期間也擔任社團活動領導人，所以
+            ，所以在學習前端的過程中比較能掌握學習節奏，目前主要都是以 Vue, Nuxt 來做開發。大學期間也擔任社團活動領導人，所以
             對於團隊合作也非常適應。目前希望先繼續保持在前端領域一段時間，更熟悉前端技術時，不排斥繼續往後端領域延伸。
           </p>
         </div>

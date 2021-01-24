@@ -1,6 +1,7 @@
 <template>
   <div>
-    <nav class="navbar">
+    <nav>
+      <img :src="require('@/assets/imgs/logo.png')" height="50">
       <ul class="navbar_nav">
         <li class="nav_items">
           關於我
