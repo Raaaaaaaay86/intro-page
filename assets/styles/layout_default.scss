@@ -1,0 +1,27 @@
+@import '@/assets/styles/variables.scss';
+
+
+nav, footer {
+  padding: 2rem 3rem;
+  background-color: $primary;
+  color: $light;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+.navbar_nav {
+  display: flex;
+  justify-content: flex-end;
+  > .nav_items {
+    margin-right: 3rem;
+  }
+}
+
+.main {
+  padding-top: 79.48px;
+  min-height: calc(100vh - 126.98px);
+}

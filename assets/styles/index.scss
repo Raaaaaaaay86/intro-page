@@ -1,0 +1,131 @@
+@import '@/assets/styles/variables.scss';
+
+html {
+  font-family: "Noto Sanss TC", "Microsoft JhengHei", "微軟正黑體",Arial, Helvetica, sans-serif;
+}
+
+.contact {
+  background-color: $light;
+  min-height: 100vh;
+  padding: 6rem 0;
+  display: grid;
+  grid-gap: 6rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-content: center;
+  background-image: url(../imgs/mesh.png);
+  background-size: cover;
+  background-attachment: fixed;
+  @media (max-width: 640px) {
+    padding: 3rem 0;
+    grid-gap: 3rem;
+    grid-template-columns: 1fr;
+  }
+}
+
+.contact_info {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+  justify-self: end;
+  justify-content: center;
+  text-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px, rgba(0, 0, 0, 0.3) 0px 8px 16px;
+  @media (max-width: 640px) {
+    justify-self: center;
+  }
+  > .info_motto {
+    font-size: 1rem;
+    color: $warning;
+    margin-bottom: 2rem;
+  }
+  > .info_name {
+    font-size: 4rem;
+    font-weight: 500;
+    &:last-of-type {
+      margin-bottom: 2rem;
+    }
+  }
+  > .info_email {
+    margin-bottom: 1rem;
+  }
+  > .info_socialMedia {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+  }
+}
+
+.contact_avatar {
+  border-radius: 50%;
+  overflow: hidden;
+  align-self: center;
+  justify-self: self-start;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  @media (max-width: 640px) {
+    justify-self: center;
+    grid-row: 1 ;
+  }
+}
+
+.about {
+  // padding: 0 3rem;
+  margin: 6rem 0;
+  color: $primary;
+  &_content {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    line-height: 1.5rem;
+    > p {
+      text-indent: 2rem;
+      grid-column: 4 / 10;
+      @media (max-width: 1280px) {
+        grid-column: 3 / 11;
+      }
+      @media (max-width: 1024px) {
+        grid-column: 2/ span 10;
+      }
+    }
+  }
+}
+
+.skills {
+  padding: 0 3rem;
+  margin-bottom: 6rem;
+  color: $primary;
+  &_list {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    line-height: 1.5rem;
+    > ul {
+      list-style-type: disc;
+    }
+    @media (max-width: 640px) {
+      justify-items: start;
+      grid-template-columns: 1fr;
+      grid-gap: 0;
+    }
+  }
+}
+
+.portfolio {
+  color: $primary;
+  margin-bottom: 6rem;
+  &_grid {
+    margin: 0 3rem;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    @media (max-width: 1024px) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    @media (max-width: 768px) {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+      grid-row-gap: 1rem;
+      margin: 0 0.5rem;
+    }
+  }
+}
