@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav>
-      <img :src="require('@/assets/imgs/logo.png')" height="50">
+      <img :src="require('@/assets/imgs/logo.png')" height="50" @click="scrollToSection('contact')">
       <ul class="navbar_nav">
         <li class="nav_items" @click="scrollToSection('about')">
           關於我
