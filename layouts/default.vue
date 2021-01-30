@@ -26,7 +26,11 @@ export default {
   methods: {
     scrollToSection(destination) {
       const targetSection = document.getElementById(destination);
-      window.scrollTo(0, targetSection.offsetTop - (window.innerHeight / 3));
+      window.scrollTo({
+        top: targetSection.offsetTop - (window.innerHeight / 3),
+        left: 0,
+        behavior: 'smooth',
+      });
     },
   },
 };
