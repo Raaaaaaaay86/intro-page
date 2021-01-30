@@ -16,7 +16,7 @@
     </nav>
     <Nuxt />
     <footer>
-      <p>Copyright © All rights reserved</p>
+      <p>Copyright © 2021 RayLin All rights reserved</p>
     </footer>
   </div>
 </template>
