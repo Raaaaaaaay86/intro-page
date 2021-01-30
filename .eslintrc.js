@@ -17,8 +17,8 @@ module.exports = {
   ],
   // add your custom rules here
   rules: {
-    'max-len': 'off',
-    'import/no-unresolved': 'off',
-    'no-unused-vars': 'warning',
+    'max-len': 0,
+    'import/no-unresolved': 0,
+    'no-unused-vars': 1,
   },
 };
