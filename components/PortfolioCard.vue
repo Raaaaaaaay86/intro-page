@@ -5,18 +5,18 @@
       :style="{background: `center / cover no-repeat url(${require(`@/assets/imgs/${cardData.imageName}.png`)})`}"
     />
     <div class="card_mask">
-      <h5 class="mask_title mask_content">
+      <h5 class="mask_title mask_content--hide">
         {{ cardData.title }}
       </h5>
-      <p class="mask_skills mask_content">
+      <p class="mask_skills mask_content--hide">
         使用技術: {{ cardData.skills }}
       </p>
-      <p v-if="cardData.isHeroku" class="mask_isHeroku mask_content">
+      <p v-if="cardData.isHeroku" class="mask_isHeroku mask_content--hide">
         (免費Heroku伺服器，重啟約40秒)
       </p>
       <div class="mask_links">
-        <a class="mask_content" target="_blank" :href="cardData.demoLink">Demo</a>
-        <a class="mask_content">GitHub</a>
+        <a class="mask_content--hide" target="_blank" :href="cardData.demoLink">Demo</a>
+        <a class="mask_content--hide">GitHub</a>
       </div>
     </div>
   </div>
@@ -47,7 +47,7 @@ export default {
       background-color: rgba(61, 90, 128, .7);
       transition: all .5s ease-out;
     }
-    .mask_content {
+    .mask_content--hide {
       color: white;
     }
   }
@@ -78,7 +78,7 @@ export default {
 }
 
 .mask {
-  &_content {
+  &_content--hide {
     color: rgba(255, 255, 255, .0);
     // color: inherit;
     transition: color .3s ease-in-out;
