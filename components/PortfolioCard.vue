@@ -69,6 +69,7 @@ export default {
   justify-content: center;
   align-items: center;
   user-select: none;
+  text-align: center;
   a {
     text-decoration: underline;
     &:first-of-type {
