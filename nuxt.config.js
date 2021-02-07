@@ -48,8 +48,10 @@ export default {
   build: {
   },
 
+  dev: process.env.NODE_ENV !== 'production',
+
   server: {
-    port: 8000,
-    host: '0.0.0.0',
+    port: process.env.NODE_ENV !== 'production' ? '8000' : '3000',
+    host: process.env.NODE_ENV !== 'production' ? '0.0.0.0' : 'localhost',
   },
 };
