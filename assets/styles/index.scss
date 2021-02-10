@@ -23,6 +23,7 @@ html {
 }
 
 .contact_info {
+  font-size: 1.5rem;
   color: white;
   display: flex;
   flex-direction: column;
@@ -32,6 +33,7 @@ html {
   text-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px, rgba(0, 0, 0, 0.3) 0px 8px 16px;
   @media (max-width: 640px) {
     justify-self: center;
+    font-size: 1rem;
   }
   > .info_motto {
     font-size: 1rem;
@@ -106,6 +108,9 @@ html {
   padding: 0 3rem;
   margin-bottom: 6rem;
   color: $primary;
+  @media (max-width: 640px) {
+    padding: 0 1.5rem;
+  }
   &_list {
     display: grid;
     grid-gap: 1rem;
@@ -114,6 +119,10 @@ html {
     line-height: 1.5rem;
     > ul {
       list-style-type: disc;
+      @media (max-width: 640px) {
+        text-align: justify;
+        padding-left: 1.5rem;
+      }
     }
     @media (max-width: 640px) {
       justify-items: start;

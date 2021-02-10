@@ -4,7 +4,7 @@
       <section id="contact" class="contact">
         <div class="contact_info">
           <p class="info_motto">
-            讓前端開啟無限可能
+            敢於嘗試，才有突破
           </p>
           <h1 class="info_name">
             林家富
