@@ -3,7 +3,7 @@ export default {
   target: 'static',
 
   head: {
-    title: 'intro-page',
+    title: 'Ray Dev',
     htmlAttrs: {
       lang: 'en',
     },
