@@ -15,8 +15,15 @@
         (免費Heroku伺服器，重啟約40秒)
       </p>
       <div class="mask_links">
-        <a class="mask_content--hide" target="_blank" :href="cardData.demoLink">Demo</a>
-        <a class="mask_content--hide">GitHub</a>
+        <a class="mask_content--hide" target="_blank" :href="cardData.demoLink">
+          Demo
+        </a>
+        <a class="mask_content--hide" target="_blank" :href="cardData.gitLink">
+          GitHub
+        </a>
+        <a v-if="cardData.mediumLink" data-destination="medium" class="mask_content--hide" target="_blank" :href="cardData.mediumLink">
+          Medium
+        </a>
       </div>
     </div>
   </div>
@@ -74,6 +81,10 @@ export default {
     text-decoration: underline;
     &:first-of-type {
       margin-right: 1rem;
+    }
+    &[data-destination = 'medium'] {
+      display: block;
+      margin-top: .5rem;
     }
   }
 }

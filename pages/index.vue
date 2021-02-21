@@ -47,11 +47,12 @@
         </h2>
         <div class="about_content">
           <p>
-            於 2020 6月畢業於龍華科技大學應用外語系，大四在台北萬豪酒店服務中心實習，服務過
-            許多英語系國家住客，皆能提供正確且即時的服務，期間也在住客入住問卷調查中被提及
-            。實習同時，在下班時間自學網頁前端技術，高職就讀電機科時就有接觸過程式撰寫基礎
-            ，所以在學習前端的過程中比較能掌握學習節奏，目前主要都是以 Vue, Nuxt 來做開發。大學期間也擔任社團活動領導人，所以
-            對於團隊合作也非常適應。目前希望先繼續保持在前端領域一段時間，更熟悉前端技術時，不排斥繼續往後端領域延伸。
+            目前主要以 Vue 為主要開發框架，且理解如何使用 Nuxt 來使用 SSR 或是 static site 來增進
+            網頁的 SEO 績效。目前流行的 CSS 框架: Bootstrap,  TailwindCSS 也都有使用經驗。也懂
+            透過使用 SCSS 預處理來規劃網頁 RWD 設計。對於後端需求(Express.js, Firebase)有概略理解。
+            過去其他工作經常透過英文進行文字和口語溝通，對自身英文能力有相當信心。目前著重於前端領域，
+            目前正在學習如何使用 TypeScript 開發，未來也想再學習 React.js 以滿足不同需求，
+            希望更熟悉前端之技術後，也能夠往後端持續延伸技術知識。
           </p>
         </div>
       </section>
@@ -106,6 +107,7 @@ export default {
           skills: 'Nuxt, Firebase, Express.js, API串接',
           isHeroku: true,
           demoLink: 'https://ray-nuxt-shop.herokuapp.com/',
+          gitLink: 'https://github.com/Raaaaaaaay86/NuxtShop/tree/fire',
         },
         {
           imageName: 'nuxt-hotel',
@@ -113,6 +115,7 @@ export default {
           skills: 'Nuxt, API串接',
           isHeroku: true,
           demoLink: 'https://hotel-house.herokuapp.com/',
+          gitLink: 'https://github.com/Raaaaaaaay86/nuxtHotel',
         },
         {
           imageName: 'nuxt-cloudDrive',
@@ -120,60 +123,73 @@ export default {
           skills: 'Nuxt, Firebase',
           isHeroku: true,
           demoLink: 'https://cloud-drive-raylin.herokuapp.com/',
+          gitLink: 'https://github.com/Raaaaaaaay86/nuxt_firebase_cloud_drive',
         },
         {
           imageName: 'icon-roullete',
           title: '抽獎轉盤',
           skills: 'D3.js, Vue3(Composition API)',
           demoLink: 'http://quirky-mountain.surge.sh/',
+          gitLink: 'https://github.com/Raaaaaaaay86/roulette-icon',
         },
         {
           imageName: 'tic-tac-toe',
           title: '井字遊戲',
           skills: 'Vue3(Composition API), localStorage',
           demoLink: 'http://direful-pan.surge.sh/',
+          gitLink: 'https://github.com/Raaaaaaaay86/tic-tac-toe',
+          mediumLink: 'https://raaaaaaaay86.medium.com/%E5%A6%82%E4%BD%95%E5%88%A4%E6%96%B7%E4%BA%95%E5%AD%97%E9%81%8A%E6%88%B2%E8%B4%8F%E5%AE%B6-d2fd35e49f02',
         },
         {
           imageName: 'canvas',
           title: '繪畫板',
           skills: 'HTML5 canvas, Vue3(Composition API)',
           demoLink: 'http://offbeat-direction.surge.sh/',
+          gitLink: 'https://github.com/Raaaaaaaay86/draw-canvas',
         },
         {
           imageName: '60s-game',
           title: '60秒數學挑戰',
           skills: 'Vue3(Composition API)',
           demoLink: 'http://aquatic-sort.surge.sh/',
+          gitLink: 'https://github.com/Raaaaaaaay86/60-seconds-game',
         },
         {
           imageName: 'aqi',
           title: '台灣空汙儀表板',
           skills: 'PUG, RWD, Vue3(Composition API)',
           demoLink: 'http://brainy-power.surge.sh/',
+          gitLink: 'https://github.com/Raaaaaaaay86/aqi-dashboard',
         },
         {
           imageName: 'calculator',
           title: '計算機',
           skills: 'PUG, VanillaJS',
           demoLink: 'http://curvy-sand.surge.sh/',
+          gitLink: 'https://github.com/Raaaaaaaay86/calculator',
         },
         {
           imageName: 'clock',
           title: '實時時鐘',
           skills: 'PUG, VanillaJS, SCSS',
           demoLink: 'http://grieving-interest.surge.sh/',
+          gitLink: 'https://github.com/Raaaaaaaay86/clock',
+          mediumLink: 'https://raaaaaaaay86.medium.com/%E5%88%A9%E7%94%A8pug-scss-js-%E8%88%92%E6%9C%8D%E9%80%A0%E5%87%BA%E6%99%82%E9%90%98-bc183b9475c5',
         },
         {
           imageName: 'world-clock',
           title: '世界時鐘',
           skills: 'PUG, VanillaJS, SCSS',
           demoLink: 'http://clammy-linen.surge.sh/',
+          gitLink: 'https://github.com/Raaaaaaaay86/world-clock',
         },
         {
           imageName: '9x9',
           title: 'JS乘法表',
           skills: 'VanillaJS, SCSS',
           demoLink: 'http://resolute-twist.surge.sh/',
+          gitLink: 'https://github.com/Raaaaaaaay86/9x9',
+          mediumLink: 'https://raaaaaaaay86.medium.com/%E5%88%A9%E7%94%A8%E8%BF%B4%E5%9C%88%E9%80%A0%E5%87%BA%E4%B9%9D%E4%B9%9D%E4%B9%98%E6%B3%95%E8%A1%A8-a55ab38be2cc',
         },
       ],
     };
