@@ -21,6 +21,12 @@ nav {
   }
 }
 
+footer {
+  @media (max-width: 450px) {
+    font-size: 8px;
+  }
+}
+
 .navbar_nav {
   display: flex;
   justify-content: flex-end;
